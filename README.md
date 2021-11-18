@@ -1,0 +1,1 @@
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[João Victor Leal](www.linkedin.com/in/joão-victor-gusmão-leal-6917aa224)_ enquanto estudava na [Trybe](https://www.betrybe.com/).
