@@ -1,0 +1,275 @@
+    1  sudo apt update
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  man sudo_root
+    5  sudo apt install ubuntu-restricted-extras
+    6  sudo apt install gufw
+    7  sudo apt install synaptic
+    8  sudo apt install vlc
+    9  sudo apt install audacius
+   10  sudo apt install gparted
+   11  clear
+   12  sudo apt install wget
+   13  clear
+   14  wget--- version
+   15  clear
+   16  sudo update
+   17  clear
+   18  sudo apt update
+   19  sudo apt upgrade
+   20  clear
+   21  wget --version
+   22  clear
+   23  wget https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGZueHlvbDZmS0JadmpGUWpDeTRLUHhNZWpLQXxBQ3Jtc0trcGM0MEFqMmlwT3hQaEJldkkwU05jOXF1NWNTVE1ObmNmSzFNUHZ0ZEdzRjJXUVlvSlJRczA2c01TS3FHbGFJelA0LVNfV2ozeXVKMFRVS1E3NFl6a1JnOTROODc0R1g4NnJjVTcxRUVfZ1o0LWVtZw&q=https%3A%2F%2Fdl.google.com%2Flinux%2Fdirect%2Fgoogle-chrome-stable_current_amd64.deb
+   24  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+   25  clear
+   26  ls
+   27  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   28  clear
+   29  sudo apt-cache show nodejs
+   30  clear
+   31  curl -fsSL https://deb.nodesource.com/setup_17.x 
+   32  sudo apt  install curl
+   33  sudo -E bash -
+   34  sudo apt-get install -y nodejs
+   35  clear
+   36  node --version
+   37  clear
+   38  sudo apt-get install -y nodejs
+   39  clear
+   40  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+   41  nvm install 14
+   42  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+   43  nvm install 14
+   44  clear
+   45  nvm install lts/*
+   46  nvm list
+   47  clear
+   48  sudo snap remove curl
+   49  clear
+   50  sudo apt install curl
+   51  clear
+   52  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+   53  clear
+   54  nvm install 14
+   55  clear
+   56  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+   57  source ~/.bashrc
+   58  source ~/.profile
+   59  clear
+   60  nvm install 14 ~/.bash_profile
+   61  clear
+   62  ~/.bash_profile
+   63  clear
+   64  tail ~/.bashrc
+   65  source ~/.bashrc
+   66  nvm install lts/*
+   67  nvm install 14
+   68  nvm install 14/.bash_profile
+   69  nvm ls-remote
+   70  nvm install Latest LTS: Fermium
+   71  nvm install lts
+   72  clear
+   73  nvm --help
+   74  nvm install --lts
+   75  nvm ls-remote --lt
+   76  clear
+   77  vim .bashrc
+   78  sudo apt install vim 
+   79  vim .bashrc
+   80  nvm ls-remote
+   81  vim .zshrc
+   82  vim zshrc
+   83  nvm ls-remote
+   84  vim 
+   85  vim .bash_profile
+   86  nvm ls-remote
+   87  pwd
+   88  ls
+   89  history
+   90  sudo update
+   91  clear
+   92  vim .bashrc
+   93  bash
+   94  vim
+   95  vim .bashrc
+   96  nvm ls-remote
+   97  nvm install 14
+   98  clear
+   99  sudo apt ugrade
+  100  sudo apt update
+  101  sudo apt upgrade
+  102  sudo apt nodejs
+  103  clear
+  104  curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  105  clear
+  106  sudo apt-get install -y nodejs
+  107  clear
+  108  node --version
+  109  clear
+  110  sudo apt install whatsapp-desktop
+  111  clear
+  112  sudo snap install notion-snap
+  113  clear
+  114  ls
+  115  ls -a
+  116  cd.
+  117  cd home
+  118  cd downloads
+  119  clear
+  120  cd /
+  121  ls
+  122  ls -a 
+  123  cd home
+  124  ls
+  125  cd jvgusmaoleal
+  126  ls
+  127  cd documentos
+  128  cd Documentos
+  129  mkdir dadosjv
+  130  ls
+  131  cd dadosjv 
+  132  clear
+  133  cd ..
+  134  cd Documentos
+  135  ls -a
+  136  ls
+  137  clear
+  138  cd dadosjv
+  139  ls
+  140  ls -a
+  141  mkdir arquivo1
+  142  cp arquivo1 arquivo2
+  143  ls
+  144  mkdir arquivo2.txt
+  145  cp arquivo2.txt arquivo3.txt
+  146  pwd
+  147  ls -a
+  148  clear
+  149  ls
+  150  /
+  151  ls-a
+  152  ls -a
+  153  clear
+  154  cd /
+  155  ls
+  156  ls -a
+  157  cd users
+  158  clear
+  159  cd users
+  160  cd jvgusmaoleal
+  161  ls
+  162  cd /
+  163  ls
+  164  cd .
+  165  cd..
+  166  cd ..
+  167  ls
+  168  cd .
+  169  ls
+  170  cd home
+  171  ls
+  172  ls -a
+  173  cd jvgusmaoleal
+  174  ls
+  175  cd música
+  176  cd Música
+  177  mkdir jv music
+  178  ls
+  179  cd jv music
+  180  clear
+  181  cd ..
+  182  pwd
+  183  file.txt
+  184  clear
+  185  ls
+  186  ls -a
+  187  cd Documentos
+  188  ls
+  189  cd dadosjv
+  190  ls
+  191  touch identidade
+  192  ls
+  193  cp identidade id2
+  194  ls
+  195  cat id2
+  196  clear
+  197  clear 
+  198  pwd
+  199  mv id2 home/jvgusmaoleal/Área de trabalho
+  200  mv id2 home/jvgusmaoleal/Música
+  201  mv id2 /home/jvgusmaoleal/Música
+  202  mv identidade /home/jvgusmaoleal/Área de trabalho
+  203  rm identidade
+  204  ls
+  205  rm arquivo1
+  206  rmdir arquivo1
+  207  ls
+  208  rmdir arquivo2.txt
+  209  cd ..
+  210  cd..
+  211  cd ..
+  212  cd Música
+  213  ls
+  214  cat id2
+  215  less id2
+  216  head -5 id2
+  217  tail -1
+  218  tail -1 id2
+  219  tail -5 id2
+  220  less id2
+  221  wc id2
+  222  bash
+  223  countdown 1
+  224  clear
+  225  pwd
+  226  mkdir unix_tests
+  227  ls
+  228  rmdir music
+  229  rmdir jv
+  230  ls
+  231  touch trybe.txt 
+  232  ls
+  233  cp trybe.txt trybe_backup.txt
+  234  ls
+  235  cd unix_tests
+  236  mkdir backup
+  237  ls
+  238  cd ..
+  239  mv trybe_backup.txt /unix_tests/backup/
+  240  cd unix_tests
+  241  mv ../trybe_backup.txt backup
+  242  ls -i
+  243  ls
+  244  cd backup
+  245  ls
+  246  cd ..
+  247  mkdir backup2
+  248  ls
+  249  rmdir backup
+  250  cd backup
+  251  ls
+  252  cd ..
+  253  rmdir backup/trybe_backup.txt
+  254  rmdir -p backup
+  255  rmdir -rf backup
+  256  rmdir --help
+  257  rmdir -p backup/trybe_backup.txt
+  258  sudo rm -rf backup
+  259  ls
+  260  clear
+  261  cd ..
+  262  sudo apt update
+  263  sudo apt upgrade
+  264  clear
+  265  sudo apt-get install cmatrix
+  266  cmatrix
+  267  sudo apt-get install fortune 
+  268  touch fortune.txt
+  269  fortune >
+  270  fortune 
+  271  cat > fortune.txt 
+  272  wc -w fortune.txt 
+  273  sudo apt-get install sl
+  274  cowsay 
+  275  history | cat > exercio_dia_4_extra.txt

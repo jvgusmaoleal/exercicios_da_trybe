@@ -1,0 +1,19 @@
+    1  clear
+    2  ps
+    3  sleep 30 &
+    4  ps
+    5  kill 28838
+    6  sleep 30 &
+    7  kill % 1
+    8  kill %1
+    9  sleep 30
+   10  fg %1
+   11  sleep 300 &
+   12  sleep 200 &
+   13  sleep 100 &
+   14  ps
+   15  kill 28937
+   16  kill 28945
+   17  kill 28951
+   18  ps
+   19  history | cat > exercicio_dia_4_parte_3

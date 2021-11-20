@@ -1,0 +1,36 @@
+    1  history
+    2  clear
+    3  cd unix_texts/
+    4  cat > skills2.txt
+    5  cat >> skills2.txt 
+    6  sort < skills2.txt 
+    7  wc -l skills2.txt 
+    8  cat > top_skills.txt
+    9  cat top_skills.txt 
+   10  cat > frases
+   11  fg %1
+   12  cat frases 
+   13  jobs
+   14  ps
+   15  cat >> frases 
+   16  cat countries.txt 
+   17  cat frases countries.txt 
+   18  cat frases countries.txt > bunch_of_things.txt
+   19  sort > bunch_of_things.txt 
+   20  cat bunch_of_things.txt 
+   21  cat frases countries.txt > bunch_of_things.txt
+   22  cat bunch_of_things.txt 
+   23  sort < bunch_of_things.txt | cat > bunch_of_things.txt 
+   24  cat bunch_of_things.txt 
+   25  history | cat > execios_dia_4_parte_1
+   26  clear
+   27  ls -l
+   28  chmod a+rw bunch_of_things.txt 
+   29  ls -l
+   30  chmod a-w bunch_of_things.txt 
+   31  ls -l
+   32  chmood 644 bunch_of_things.txt 
+   33  history
+   34  history tail -6 | cat > exercicio_dia_4_parte_2
+   35  history tail | cat > exercicio_dia_4_parte_2
+   36  history | cat > exercicio_dia_4_parte_2
