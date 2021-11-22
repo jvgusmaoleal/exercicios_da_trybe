@@ -1,0 +1,23 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    
+}
+#color-list{
+    background-color: rgb(41, 10, 71);
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    text-decoration: rgb(41, 10, 71);
+}
+p{
+    font-size: 3em;
+    font-weight: 600;
+}
+.tag-p{
+    background-color: peru;
+}
+body{
+    font-size: 16px;
+}
