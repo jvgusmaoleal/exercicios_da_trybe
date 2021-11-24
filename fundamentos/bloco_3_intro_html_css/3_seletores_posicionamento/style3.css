@@ -1,0 +1,32 @@
+ol li.impar{
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+ol li.par{
+    background-color: green;
+}
+.header{
+    color: red;
+}
+.italico{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;
+    }
+.italico2{ 
+    font-weight: bold;
+    
+}    
+.azul{
+    color: blue;    
+}
+.java{
+    background-color:pink ;
+}
+a :hover{
+    font-weight: bold;
+    color:red ;
+}
