@@ -62,11 +62,11 @@ else{
 let statusCandidato= "nao sei"
 
 switch(statusCandidato){
-  case "aprovado";
+  case "aprovado":
   console.log("aprovado");
   break;
 
-case "lista";
+case "lista":
   console.log("lista");
   break;
 
