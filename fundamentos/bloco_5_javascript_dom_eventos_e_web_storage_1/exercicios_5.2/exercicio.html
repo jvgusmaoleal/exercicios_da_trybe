@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="corpo">
+     
+    <script>
+     let titulo = ["Exercício 5.2 - JavaScript DOM"];
+    let nome = document.querySelector(".corpo");
+    for(let i of titulo){
+        let nomeJV = titulo[i];
+        let tituloNomeJv = document.createElement("h1");
+        tituloNomeJv.innerText = titulo;
+        nome.appendChild(tituloNomeJv);
+    }
+    let principal = [""];
+    let principalMain = document.querySelector(".corpo");
+    for(let i2 of principal){
+      let principalLoop = document.createElement("main");
+      principalLoop.innerText = principal;
+      principalMain.appendChild(principalLoop);
+     principalLoop.className = "main-content"
+    
+    } 
+    let secao = [""];
+    let filhoMain = document.querySelector(".main-content");
+     for(let i3 of secao){
+        let secaoLoop = document.createElement("section");
+        secaoLoop.innerText = secao;
+        filhoMain.appendChild(secaoLoop);
+        secaoLoop.className = "center-content";
+     }
+     let paragrafo = ["Joao Victor Gusmao Leal é estudante da trybe"];
+     let filhoSection = document.querySelector(".center-content");
+     for(let i4 of paragrafo){
+       let paragrafoLoop = document.createElement("p");
+       paragrafoLoop.innerText = paragrafo;
+       filhoSection.appendChild(paragrafoLoop);
+       }
+       let secao2 =[""];
+       let filhoMain2 = document.querySelector(".main-content");
+       for(let i5 of secao2){
+         let secao2Loop = document.createElement("section");
+         secao2Loop.innerText = secao2;
+         filhoMain2.appendChild(secao2Loop);
+         secao2Loop.className = "left-content";
+       }
+       let secao3 =[""];
+       let filhoMain3 = document.querySelector(".main-content");
+       for(let i6 of secao3){
+         let secao3Loop = document.createElement("section");
+         secao3Loop.innerText = secao3;
+         filhoMain3.appendChild(secao3Loop);
+         secao2Loop.className = "right-content";
+       }
+
+       
+   </script>
+  </body>
+</html>

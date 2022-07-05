@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragrafos">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragrafos">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      paragraph.innerText = "Harry Potter";
+      paragraph.style.backgroundColor = "pink";
+      paragraph.style.margin = "50px";
+      paragraph.style.padding = "30px";
+      let titulo = document.getElementById("page-title");
+      titulo.innerText = "Rocky- Um lutador";
+      titulo.style.backgroundColor = "green";
+      titulo.style.margin = "50px";
+      titulo.style.padding = "30px";
+      let subtitle = document.getElementById("subtitle");
+      subtitle.innerText = "Forrest Gump";
+      subtitle.style.backgroundColor = "yellow";
+      subtitle.style.margin = "50px";
+      subtitle.style.padding = "30px";
+      let segundoParagrafo = document.getElementById("second-paragraph");
+      segundoParagrafo.innerText = "The godfather- part I";
+      segundoParagrafo.style.backgroundColor = "blue";
+      segundoParagrafo.style.margin = "50px";
+      segundoParagrafo.style.padding = "30px";
+
+      let osParagrafos = document.getElementsByClassName("paragrafos");
+      for(let i in osParagrafos){
+          osParagrafos[0].style.color = "blue";
+          osParagrafos[1].style.color = "white";
+      }
+    </script>
+  </body>
+</html>
